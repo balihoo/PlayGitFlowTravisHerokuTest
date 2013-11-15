@@ -17,8 +17,8 @@ public class MainControllerTest {
 
     @Test
     public void simpleCheck() {
-        int a = 13 + 21;
-        assertThat(a).isEqualTo(52);
+        int a = 7 + 2;
+        assertThat(a).isEqualTo(9);
     }
 
     @Test
