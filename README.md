@@ -1,5 +1,4 @@
-Master [![Build Status](https://travis-ci.org/balihoo/PlayGitFlowTravisHerokuTest.png?branch=master)](https://travis-ci.org/balihoo/PlayGitFlowTravisHerokuTest)
-All Builds [![Build Status](https://travis-ci.org/balihoo/PlayGitFlowTravisHerokuTest.png)](https://travis-ci.org/balihoo/PlayGitFlowTravisHerokuTest)
+Master Status [![Build Status](https://travis-ci.org/balihoo/PlayGitFlowTravisHerokuTest.png?branch=master)](https://travis-ci.org/balihoo/PlayGitFlowTravisHerokuTest)
 
 PlayGitFlowTravisHerokuTest
 ===========================
