@@ -1,3 +1,8 @@
 language: scala
 scala:
-   - 2.10.2
+- 2.10.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: IsXAkJwDrJxhNpatC/CzFgjlR52cv9Yj+Ceq6iUnQKA+wTJnhPM8d3Ak2+MIZFg900TtJxKe6U2gox8a1RmRz8PQ1E2umnPvu6zaJjzspDwxZtxLXYF+BuRntyqYyQ0e2DQdehTGYqas37ntKG8c6rmm7fB56xDFE8/AS/rGkU0=
+  app: mysterious-atoll-6742
