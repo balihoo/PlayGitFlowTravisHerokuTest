@@ -45,4 +45,17 @@ public class MainControllerTest {
         });
     }
 
+    @Test
+    public void indexShouldContainTheCorrectString2() {
+        running(fakeApplication(), new Runnable() {
+            public void run() {
+                Result result = callAction(routes.ref.MainController.index());
+                assertThat(status(result)).isEqualTo(OK);
+                assertThat(contentType(result)).isEqualTo("text/html");
+                assertThat(charset(result)).isEqualTo("utf-8");
+                assertThat(contentAsString(result)).contains("Hello from Java");
+            }
+        });
+    }
+
 }
